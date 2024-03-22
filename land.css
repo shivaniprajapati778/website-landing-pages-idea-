@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+
+}
+
+#nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 30px;
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 80px;
+
+
+
+}
+
+#nav-part3 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#nav button {
+    color: #000;
+    background-color: #fff;
+    padding: 13px 20px;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    font-size: 19px;
+
+
+}
+
+#nav h3 {
+    text-transform: uppercase;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+    padding: 2.6px;
+}
+
+img {
+    height: 65px;
+    border-radius: 15px;
+}
+
+#main h1 {
+    font-size: 110px;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    line-height: 101px;
+
+}
+
+#main h1 span {
+    background-color: brown;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 3px 40px;
+    margin: 0 30px;
+}
+
+#main h1:nth-last-child(3) {
+    margin-top: 30px;
+}
+
+
+#main #left-img {
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 3.5%;
+}
+
+#main #right-img {
+    height: 300px;
+    position: absolute;
+    bottom: 12%;
+    right: 0.5%;
+}
+
+/* #main #mid-img {
+    height: 180px;
+    position: absolute;
+    bottom: 53%;
+    left: 53%;
+  
+} */
+ 
+
+#main>h5 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 25px;
+}
